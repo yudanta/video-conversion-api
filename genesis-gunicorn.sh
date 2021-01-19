@@ -1,0 +1,1 @@
+gunicorn --user genesis --name 'Video Conversion API' --chdir /home/genesis/src --timeout 600 -b 0.0.0.0:8080 app:app -k gevent --worker-connections 5 --workers 2 --reload

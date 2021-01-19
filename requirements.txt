@@ -1,0 +1,8 @@
+flask
+flask-restplus
+flask_cors
+ffmpy
+gunicorn
+gevent
+greenlet
+# Werkzeug==0.16.1

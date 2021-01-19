@@ -50,4 +50,6 @@ curl -X POST "http://localhost:8080/api/v.0.1/video/convert?preset=mobile_preset
 The simple testing script are available on ```app/tests``` directory, to make it simple we only utilize unittest python module for testing script dependency.
 
 ## Online demo
-online demo maybe available for this project... 
+online demo available for this project, the demo can be accessed at this url: http://accravideoapi.herokuapp.com/api/v.0.1/doc/ 
+
+ps. since it's a free package of heroku so the access may a bit slow hehe... hehe...

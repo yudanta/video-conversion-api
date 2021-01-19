@@ -32,7 +32,11 @@ docker run -p 8080:8080 accra_api
 ```
 
 ## Api docs with Swagger
-We use swagger for documenting the project API, the url for accessing api documentation is [http://localhost:8080/api/v.0.1/doc/](http://localhost:8080/api/v.0.1/doc/), you can also try the API request directly from the swagger
+We use swagger for documenting the project API, the url for accessing api documentation is [http://localhost:8080/api/v.0.1/doc/](http://localhost:8080/api/v.0.1/doc/)
+
+
+## Testing the API 
+You can try the API request directly from the swagger above
 
 ![](images/swagger-video-convert-rest-api.png)
 
@@ -42,8 +46,7 @@ curl -X POST "http://localhost:8080/api/v.0.1/video/convert?preset=mobile_preset
 ```
 ![](images/video-conversion-api-curl.gif)
 
-
-## Testing the API 
+## Unittest
 The simple testing script are available on ```app/tests``` directory, to make it simple we only utilize unittest python module for testing script dependency.
 
 ## Online demo
